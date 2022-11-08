@@ -11,6 +11,14 @@
   justify-content: center;
   align-items: center;
 }
+.game__inner {
+  max-width: 980px;
+  max-height: 810px;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  background: url(../public/game_bg.png) center/cover no-repeat;
+}
 
 .footer {
   display: flex;
@@ -61,8 +69,8 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
+    monospace;
 }
 
 .grid {

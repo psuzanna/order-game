@@ -1,0 +1,22 @@
+.container {
+   padding: 0 2rem;
+ }
+ 
+ .main {
+   min-height: 100vh;
+   padding: 4rem 0;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .game__inner {
+   max-width: 980px;
+   max-height: 810px;
+   width: 90%;
+   height: 90%;
+   margin: auto;
+   padding: 2rem;
+   background: url(../../public/game_bg.png) center/cover no-repeat;
+ }

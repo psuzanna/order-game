@@ -1,0 +1,21 @@
+.gameOptions {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-width: 10px;
+   border-radius: 40px;
+   border-left-color: #7F75F0;
+   border-right-color: #101F32;
+   border-top-color: #7F75F0;
+   border-bottom-color: #101F32;
+   border-style: solid;
+   button {
+      background: #FFD748;
+      border-radius: 20px;
+      //transform: matrix(-1, 0, 0, 1, 0, 0);
+      margin-bottom: 2rem;
+   }
+
+}
+
