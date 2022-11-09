@@ -14,8 +14,9 @@
  .game__inner {
    max-width: 980px;
    max-height: 810px;
-   width: 90%;
-   height: 90%;
+   width: 100%;
+   height: 100%;
+   min-height: 100vh;
    margin: auto;
    padding: 2rem;
    background: url(../../public/game_bg.png) center/cover no-repeat;

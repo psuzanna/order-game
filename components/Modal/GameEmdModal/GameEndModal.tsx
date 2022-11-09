@@ -13,8 +13,8 @@ import Image from 'next/image';
 //import styles from '../Modal/BasicModal.module.scss'
 const style = {
    position: 'absolute' as 'absolute',
-   top: '50%',
-   left: '50%',
+   top: 'calc(50% - 50px)',
+   left: 'calc(50% - 50px)',
    transform: 'translate(-50%, -50%)',
    width: '830px',
    height: '530px',
