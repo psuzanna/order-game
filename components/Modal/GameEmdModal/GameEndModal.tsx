@@ -4,7 +4,7 @@ import { GameOptions } from '../../GameOptions/GameOptions';
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 
-import { useGlobalContext } from '../../../pages/GlobalContext';
+import { useGlobalContext } from '../../GlobalContext.tsx/GlobalContext';
 import { GameWin } from '../../GameInner/GameWin/GameWin';
 import styles from '../GameEmdModal/GameEnd.module.scss'
 import { url } from 'inspector';

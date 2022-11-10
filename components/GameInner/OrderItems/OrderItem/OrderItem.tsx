@@ -1,8 +1,8 @@
-import { orderItem } from "../../../../pages/GlobalContext";
+import { orderItem } from "../../../GlobalContext.tsx/GlobalContext";
 import Image from "next/image";
 import styles from "./OrderItem.module.scss";
 import { DragEventHandler, EffectCallback, MouseEventHandler, useState } from "react";
-import { useGlobalContext } from "../../../../pages/GlobalContext";
+import { useGlobalContext } from "../../../GlobalContext.tsx/GlobalContext";
 
 interface orderItemProps {
    orderItem: orderItem,

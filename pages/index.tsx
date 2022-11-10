@@ -1,5 +1,5 @@
 
-import { gameOptions, GlobalContext, orderItem } from './GlobalContext'
+import { gameOptions, GlobalContext, orderItem } from '../components/GlobalContext.tsx/GlobalContext'
 import { DragEventHandler, EffectCallback, MouseEventHandler, useEffect, useState } from 'react';
 
 import { GameStartModal } from '../components/Modal/GameStartModal/GameStartModal';

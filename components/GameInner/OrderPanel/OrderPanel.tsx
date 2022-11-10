@@ -1,4 +1,4 @@
-import { orderItem, useGlobalContext } from "../../../pages/GlobalContext";
+import { orderItem, useGlobalContext } from "../../GlobalContext.tsx/GlobalContext";
 import styles from "./OrderPanel.module.scss";
 import Image from "next/image";
 import { DragEventHandler, MouseEventHandler } from "react";

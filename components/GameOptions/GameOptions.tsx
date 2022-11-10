@@ -1,5 +1,5 @@
 import { useState, MouseEventHandler } from 'react';
-import { useGlobalContext, gameOptions, orderItem } from '../../pages/GlobalContext';
+import { useGlobalContext, gameOptions, orderItem } from '../GlobalContext.tsx/GlobalContext';
 import Slider from '@mui/material/Slider';
 import Box from '@mui/material/Box';
 //import { countMark, valueMark } from '../../pages';

@@ -1,7 +1,7 @@
 import { OrderItems } from './OrderItems/OrderItems';
 import { OrderPanel } from './OrderPanel/OrderPanel';
 import styles from './GameInner.module.scss';
-import { useGlobalContext } from '../../pages/GlobalContext';
+import { useGlobalContext } from '../GlobalContext.tsx/GlobalContext';
 
 export const GameInner: React.FC = () => {
    const { order_items_sort } = useGlobalContext()

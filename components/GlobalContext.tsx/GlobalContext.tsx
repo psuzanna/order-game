@@ -1,6 +1,6 @@
 import { createContext, useContext } from "react"
 import { DragEventHandler, EffectCallback, MouseEventHandler, useEffect, useState, SetStateAction, Dispatch } from 'react';
-import { GameOptions } from "../components/GameOptions/GameOptions";
+import { GameOptions } from "../GameOptions/GameOptions";
 
 export interface orderItem {
    value: number | string,

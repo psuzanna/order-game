@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
 import styles from '../GameStartModal/GameStartModal.module.scss'
 import { makeStyles } from '@material-ui/styles';
 import styled from '@emotion/styled'
-import { useGlobalContext } from '../../../pages/GlobalContext';
+import { useGlobalContext } from '../../GlobalContext.tsx/GlobalContext';
 import { red } from '@mui/material/colors';
 const style = {
    position: 'absolute' as 'absolute',

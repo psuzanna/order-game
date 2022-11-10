@@ -1,9 +1,9 @@
 import { OrderItem } from "./OrderItem/OrderItem";
-import { useGlobalContext } from '../../../pages/GlobalContext';
+import { useGlobalContext } from '../../GlobalContext.tsx/GlobalContext';
 //import { orderItem } from "../../../pages";
 import styles from "./OrderItems.module.scss";
 import { DragEventHandler, EffectCallback, useContext } from "react";
-import { orderItem } from "../../../pages/GlobalContext";
+import { orderItem } from "../../GlobalContext.tsx/GlobalContext";
 interface OrderItemsProps {
    /*orderItems: orderItem[],
    dragStart: DragEventHandler,

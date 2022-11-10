@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "../GameWin/GameWin.module.scss";
 import Button from '@mui/material/Button';
 import { MouseEventHandler, useState } from "react";
-import { useGlobalContext } from "../../../pages/GlobalContext";
+import { useGlobalContext } from "../../GlobalContext.tsx/GlobalContext";
 
 export const GameWin: React.FC = () => {
    const { showModal, setShowModal, gameEnd, setGameEnd } = useGlobalContext();
